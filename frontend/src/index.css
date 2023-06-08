@@ -12,11 +12,18 @@ code {
     monospace;
 }
 
-.light-purple-bg {
-  background-color: lightcoral;
-}
-
 a {
   text-decoration: none;
   color: gray;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.product-title {
+  height: 2.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
